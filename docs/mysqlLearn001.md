@@ -130,6 +130,7 @@ redo log 是 InnoDB 引擎特有的日志，而 Server 层也有自己的日志�
 5. 执行器调用引擎的提交事务接口，引擎把刚刚写入的 redo log 改成提交（commit）状 态，更新完成。
 图中浅色框表示是在 InnoDB 内部执行的， 深色框表示是在执行器中执行
 ![cmd-markdown-logo](https://github.com/MyApe/blogs/blob/master/docs/mysql2.png)
+
 redo log的提交具有两阶段，以下从反面解释了为什么两阶段
 1. 先写 redo log 后写 binlog。假设在 redo log 写完，binlog 还没有写完的时候， MySQL 进程异常重启。
    redo log 写完之后，系统即使崩溃，仍然能够把数据恢复回来，所以恢复后这一行 c 的值是 1。 
