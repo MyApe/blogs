@@ -9,11 +9,4 @@
 ```
 select * from test where id = 1;
 ```
-# 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+![cmd-markdown-logo](https://github.com/MyApe/blogs/blob/master/mysql1.png)
