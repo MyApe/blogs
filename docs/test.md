@@ -1,2 +1,2 @@
-1.AAAAAAAAAA
-2DDDDDDDDDDDDDD
+# mysql
+##1索引
