@@ -26,18 +26,21 @@
       ..容器
       ..托管资源
  ### IoC的主要实现
- javaSE:
-    .java Beans
-    .java ServiceLoader SPI
-    .JNDI(java Naminf And Directory Interface)
- javaEE
-    .EJB(依赖查询   3.0后注入)
-    .Servlet（）
- 开源
-    .PicoContainer
-    .Google Duice
-    .Spring Framework
+       javaSE:
+          .java Beans
+          .java ServiceLoader SPI
+          .JNDI(java Naminf And Directory Interface)
+       javaEE
+          .EJB(依赖查询   3.0后注入)
+          .Servlet（）
+       开源
+          .PicoContainer
+          .Google Duice
+          .Spring Framework
+   
     
+### IoC的实现
+      
     
     
     
